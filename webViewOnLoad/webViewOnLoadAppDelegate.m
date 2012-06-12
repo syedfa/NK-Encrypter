@@ -21,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 
-	sleep(2);
+	//sleep(2);
 	// Override point for customization after application launch.
 	extern BOOL _mainWebViewLoaded;
 	Nimble *nimble = [[Nimble alloc] initWithRootPage:@"main.html" window:self.window serial:@""];
