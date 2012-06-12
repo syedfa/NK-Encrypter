@@ -1,0 +1,25 @@
+<!--    By Florian Knorn | florian-knorn.com       -->
+<!-- Shout outs to Alex for his work on NimbleKit! -->
+<html>
+<head>
+<meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<script type="text/javascript" src="NKit.js"></script>
+<script type="text/javascript">
+	
+	// The webview gets created before the other native interface elements, which means it will be "objectAtIndex:1" (see webViewLoadRequestTracking for details!)
+	webView = new NKWebView();
+	webView.init(0,0,innerWidth,innerHeight);
+
+	// register class and enable it
+	NKRegisterClass('webViewLoadRequestTracking');
+	CallNKitAction('enableLoadRequestTracking?className=webViewLoadRequestTracking'); // enable load request tracking
+
+	// Present the webview that'll load the URLs
+	webView.show();
+
+</script>
+</head>
+<body>
+</body>
+</html>

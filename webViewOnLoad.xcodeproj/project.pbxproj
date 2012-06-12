@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B37A078F1578409600795C22 /* EncryptedFileURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B37A078C1578409600795C22 /* EncryptedFileURLProtocol.m */; };
+		B37A07901578409600795C22 /* NSURL+EncryptedFileURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B37A078E1578409600795C22 /* NSURL+EncryptedFileURLProtocol.m */; };
+		B37A07961578443E00795C22 /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = B37A07951578443E00795C22 /* main.html */; };
+		D048E3CA13AA352F00D78232 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D048E3C913AA352F00D78232 /* UIKit.framework */; };
+		D048E3CC13AA352F00D78232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D048E3CB13AA352F00D78232 /* Foundation.framework */; };
+		D048E3CE13AA352F00D78232 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D048E3CD13AA352F00D78232 /* CoreGraphics.framework */; };
+		D048E3D413AA352F00D78232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D048E3D213AA352F00D78232 /* InfoPlist.strings */; };
+		D048E3D713AA352F00D78232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D048E3D613AA352F00D78232 /* main.m */; };
+		D048E3DA13AA352F00D78232 /* webViewOnLoadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D048E3D913AA352F00D78232 /* webViewOnLoadAppDelegate.m */; };
+		D048E3DC13AA352F00D78232 /* NKit.js in Resources */ = {isa = PBXBuildFile; fileRef = D048E3DB13AA352F00D78232 /* NKit.js */; };
+		D048E3E413AA352F00D78232 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D048E3E213AA352F00D78232 /* MainWindow_iPhone.xib */; };
+		D048E3E813AA353000D78232 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D048E3E613AA353000D78232 /* MainWindow_iPad.xib */; };
+		D048E3F013AA354E00D78232 /* webViewLoadRequestTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = D048E3EF13AA354E00D78232 /* webViewLoadRequestTracking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B37A078B1578409600795C22 /* EncryptedFileURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptedFileURLProtocol.h; sourceTree = "<group>"; };
+		B37A078C1578409600795C22 /* EncryptedFileURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptedFileURLProtocol.m; sourceTree = "<group>"; };
+		B37A078D1578409600795C22 /* NSURL+EncryptedFileURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+EncryptedFileURLProtocol.h"; sourceTree = "<group>"; };
+		B37A078E1578409600795C22 /* NSURL+EncryptedFileURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+EncryptedFileURLProtocol.m"; sourceTree = "<group>"; };
+		B37A0791157841CD00795C22 /* HTML */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTML; sourceTree = "<group>"; };
+		B37A07951578443E00795C22 /* main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
+		D048E3C513AA352F00D78232 /* webViewOnLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webViewOnLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D048E3C913AA352F00D78232 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D048E3CB13AA352F00D78232 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D048E3CD13AA352F00D78232 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D048E3D113AA352F00D78232 /* webViewOnLoad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webViewOnLoad-Info.plist"; sourceTree = "<group>"; };
+		D048E3D313AA352F00D78232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D048E3D513AA352F00D78232 /* webViewOnLoad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webViewOnLoad-Prefix.pch"; sourceTree = "<group>"; };
+		D048E3D613AA352F00D78232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D048E3D813AA352F00D78232 /* webViewOnLoadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webViewOnLoadAppDelegate.h; sourceTree = "<group>"; };
+		D048E3D913AA352F00D78232 /* webViewOnLoadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webViewOnLoadAppDelegate.m; sourceTree = "<group>"; };
+		D048E3DB13AA352F00D78232 /* NKit.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = NKit.js; path = /Library/Frameworks/NimbleKit/NKit.js; sourceTree = "<absolute>"; };
+		D048E3DD13AA352F00D78232 /* NKit.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = NKit.xcconfig; path = /Library/Frameworks/NimbleKit/NKit.xcconfig; sourceTree = "<absolute>"; };
+		D048E3E313AA352F00D78232 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		D048E3E713AA353000D78232 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		D048E3EE13AA354E00D78232 /* webViewLoadRequestTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewLoadRequestTracking.h; sourceTree = "<group>"; };
+		D048E3EF13AA354E00D78232 /* webViewLoadRequestTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewLoadRequestTracking.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D048E3C213AA352F00D78232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D048E3CA13AA352F00D78232 /* UIKit.framework in Frameworks */,
+				D048E3CC13AA352F00D78232 /* Foundation.framework in Frameworks */,
+				D048E3CE13AA352F00D78232 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D048E3BA13AA352F00D78232 = {
+			isa = PBXGroup;
+			children = (
+				D048E3CF13AA352F00D78232 /* webViewOnLoad */,
+				D048E3C813AA352F00D78232 /* Frameworks */,
+				D048E3C613AA352F00D78232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D048E3C613AA352F00D78232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D048E3C513AA352F00D78232 /* webViewOnLoad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D048E3C813AA352F00D78232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D048E3C913AA352F00D78232 /* UIKit.framework */,
+				D048E3CB13AA352F00D78232 /* Foundation.framework */,
+				D048E3CD13AA352F00D78232 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D048E3CF13AA352F00D78232 /* webViewOnLoad */ = {
+			isa = PBXGroup;
+			children = (
+				B37A0791157841CD00795C22 /* HTML */,
+				B37A07951578443E00795C22 /* main.html */,
+				D048E3D813AA352F00D78232 /* webViewOnLoadAppDelegate.h */,
+				D048E3D913AA352F00D78232 /* webViewOnLoadAppDelegate.m */,
+				D048E3EE13AA354E00D78232 /* webViewLoadRequestTracking.h */,
+				D048E3EF13AA354E00D78232 /* webViewLoadRequestTracking.m */,
+				B37A078B1578409600795C22 /* EncryptedFileURLProtocol.h */,
+				B37A078C1578409600795C22 /* EncryptedFileURLProtocol.m */,
+				B37A078D1578409600795C22 /* NSURL+EncryptedFileURLProtocol.h */,
+				B37A078E1578409600795C22 /* NSURL+EncryptedFileURLProtocol.m */,
+				D048E3E113AA352F00D78232 /* iPhone */,
+				D048E3E513AA353000D78232 /* iPad */,
+				D048E3D013AA352F00D78232 /* Supporting Files */,
+			);
+			path = webViewOnLoad;
+			sourceTree = "<group>";
+		};
+		D048E3D013AA352F00D78232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D048E3D113AA352F00D78232 /* webViewOnLoad-Info.plist */,
+				D048E3D213AA352F00D78232 /* InfoPlist.strings */,
+				D048E3D513AA352F00D78232 /* webViewOnLoad-Prefix.pch */,
+				D048E3D613AA352F00D78232 /* main.m */,
+				D048E3DB13AA352F00D78232 /* NKit.js */,
+				D048E3DD13AA352F00D78232 /* NKit.xcconfig */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D048E3E113AA352F00D78232 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				D048E3E213AA352F00D78232 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		D048E3E513AA353000D78232 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				D048E3E613AA353000D78232 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D048E3C413AA352F00D78232 /* webViewOnLoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D048E3EB13AA353000D78232 /* Build configuration list for PBXNativeTarget "webViewOnLoad" */;
+			buildPhases = (
+				B37A078715783FF500795C22 /* SCRIPT: Encrypt Resources */,
+				D048E3C113AA352F00D78232 /* Sources */,
+				D048E3C213AA352F00D78232 /* Frameworks */,
+				D048E3C313AA352F00D78232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webViewOnLoad;
+			productName = webViewOnLoad;
+			productReference = D048E3C513AA352F00D78232 /* webViewOnLoad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D048E3BC13AA352F00D78232 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D048E3BF13AA352F00D78232 /* Build configuration list for PBXProject "webViewOnLoad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D048E3BA13AA352F00D78232;
+			productRefGroup = D048E3C613AA352F00D78232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D048E3C413AA352F00D78232 /* webViewOnLoad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D048E3C313AA352F00D78232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D048E3D413AA352F00D78232 /* InfoPlist.strings in Resources */,
+				D048E3DC13AA352F00D78232 /* NKit.js in Resources */,
+				D048E3E413AA352F00D78232 /* MainWindow_iPhone.xib in Resources */,
+				D048E3E813AA353000D78232 /* MainWindow_iPad.xib in Resources */,
+				B37A07961578443E00795C22 /* main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B37A078715783FF500795C22 /* SCRIPT: Encrypt Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "SCRIPT: Encrypt Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DIRNAME=HTML\nENC_KEY=\"abcdefghijklmnopqrstuvwxyz123456\"\n\nINDIR=$PROJECT_DIR/webViewOnLoad/$DIRNAME\nOUTDIR=$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/$DIRNAME\n\nif [ ! -d \"$OUTDIR\" ]; then\n    mkdir -p \"$OUTDIR\"\nfi\n\nfor file in \"$INDIR\"/* #*/\ndo\n    echo \"Encrypting $file\"\n    \"$PROJECT_DIR/crypt\" -e -k $ENC_KEY -i \"$file\" -o \"$OUTDIR/`basename \"$file\"`\"\ndone";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D048E3C113AA352F00D78232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D048E3D713AA352F00D78232 /* main.m in Sources */,
+				D048E3DA13AA352F00D78232 /* webViewOnLoadAppDelegate.m in Sources */,
+				D048E3F013AA354E00D78232 /* webViewLoadRequestTracking.m in Sources */,
+				B37A078F1578409600795C22 /* EncryptedFileURLProtocol.m in Sources */,
+				B37A07901578409600795C22 /* NSURL+EncryptedFileURLProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D048E3D213AA352F00D78232 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D048E3D313AA352F00D78232 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D048E3E213AA352F00D78232 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D048E3E313AA352F00D78232 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D048E3E613AA353000D78232 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D048E3E713AA353000D78232 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D048E3E913AA353000D78232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D048E3DD13AA352F00D78232 /* NKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D048E3EA13AA353000D78232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D048E3DD13AA352F00D78232 /* NKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D048E3EC13AA353000D78232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D048E3DD13AA352F00D78232 /* NKit.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webViewOnLoad/webViewOnLoad-Prefix.pch";
+				INFOPLIST_FILE = "webViewOnLoad/webViewOnLoad-Info.plist";
+				LIBRARY_SEARCH_PATHS = /Library/Frameworks/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Library/Frameworks/NimbleKit/;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D048E3ED13AA353000D78232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D048E3DD13AA352F00D78232 /* NKit.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webViewOnLoad/webViewOnLoad-Prefix.pch";
+				INFOPLIST_FILE = "webViewOnLoad/webViewOnLoad-Info.plist";
+				LIBRARY_SEARCH_PATHS = /Library/Frameworks/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Library/Frameworks/NimbleKit/;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D048E3BF13AA352F00D78232 /* Build configuration list for PBXProject "webViewOnLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D048E3E913AA353000D78232 /* Debug */,
+				D048E3EA13AA353000D78232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D048E3EB13AA353000D78232 /* Build configuration list for PBXNativeTarget "webViewOnLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D048E3EC13AA353000D78232 /* Debug */,
+				D048E3ED13AA353000D78232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D048E3BC13AA352F00D78232 /* Project object */;
+}
